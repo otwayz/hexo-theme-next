@@ -610,7 +610,7 @@ busuanzi_count:
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
   # custom pv span for one page only
-  page_pv: true
+  page_pv: false
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
@@ -668,7 +668,7 @@ local_search:
 # Bookmark Support
 # Dependencies: https://github.com/theme-next/theme-next-bookmark
 bookmark:
-  enable: false
+  enable: true
   # if auto
   #   - save the reading position when closing the page
   #   - or clicking the bookmark-icon
