@@ -121,8 +121,8 @@ menu:
   archives: /archives/ || archive
   tags: /tags/ || tags
   categories: /categories/ || th
-
-  #about: /about/ || user
+  about: /about/ || user
+  
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -506,16 +506,16 @@ valine:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-  enable: false
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  enable: true
+  mint: false # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
+  cleanly: true # Hide 'Powered by ...' on footer, and more
   language: en # Force language, or auto switch by theme
-  github_user: otwayz # MUST HAVE, Your Github Username
-  github_repo: otwayz.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: 7f5df12c71a4c441d203 # MUST HAVE, Github client id for the Gitment
-  client_secret: ac5e2031cae917b028c126c7559751cb0a31f041 # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: 'otwayz' # MUST HAVE, Your Github Username
+  github_repo: 'BlogComments' # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: edb003e29495b5515a16 #7f5df12c71a4c441d203 # MUST HAVE, Github client id for the Gitment
+  client_secret: 85c8cf7633db9dadf4b0e7470d20476f3779b697 #ac5e2031cae917b028c126c7559751cb0a31f041 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
